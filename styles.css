@@ -23,14 +23,14 @@ section{
     transition: all 2s;
 }
 
-/* @media(prefers-reduced-motion){
-    .hidden{
-        transition: none;
-    }
-} */
-
 .show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
 }
+
+/* @media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+} */
